@@ -23,6 +23,12 @@ exports.decorateConfig = (config) => {
     }
   `
   const defaultCSS = `
+    .term_fit {
+      -webkit-app-region: drag;
+    }
+    .xterm-screen {
+      -webkit-app-region: no-drag;
+    }
     .header_windowHeader {
       display: none;
     }
